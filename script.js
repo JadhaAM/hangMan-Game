@@ -26,7 +26,7 @@ const getRandoumWord = () => {
     const { word, hint } = wordList[Math.floor(Math.random() * wordList.length)];
     correntWord = word;
     document.querySelector(".hint-text b").innerText = hint;
-   
+   gameModal.style.display = "flex";
     resetGame();
 }
 
