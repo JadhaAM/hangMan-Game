@@ -1,63 +1,173 @@
 const wordList=[
     
-          {
-            "word": "python",
-            "hint": "A high-level programming language known for its readability and simplicity. (Computer Language)"
-          },
-          {
-            "word": "planet",
-            "hint": "A celestial body orbiting a star or stellar remnant that is massive enough to be rounded by its own gravity. (General Knowledge)"
-          },
-          {
-            "word": "gravity",
-            "hint": "A force that attracts objects with mass toward each other. (General Knowledge)"
-          },
-          {
-            "word": "elephant",
-            "hint": "A large mammal with a long trunk and tusks. (Animals)"
-          },
-          {
-            "word": "ocean",
-            "hint": "A vast body of saltwater that covers almost three-quarters of the Earth's surface. (General Knowledge)"
-          },
-          {
-            "word": "java",
-            "hint": "A widely-used object-oriented programming language, particularly for web development. (Computer Language)"
-          },
-          
-          {
-            "word": "banana",
-            "hint": "A long curved fruit that grows in clusters and has a yellow skin. (Fruits)"
-          },
-          {
-            "word": "continent",
-            "hint": "Any of the world's main continuous expanses of land (Africa, Antarctica, Asia, Australia, Europe, North America, South America). (General Knowledge)"
-          },
-          {
-            "word": "mountain",
-            "hint": "A large natural elevation of the earth's surface rising abruptly from the surrounding level; a large steep hill. (Geography)"
-          },
-          {
-            "word": "guitar",
-            "hint": "A musical instrument with six or twelve strings, typically played by plucking or strumming. (Music)"
-          },
-          {
-            "word": "democracy",
-            "hint": "A system of government by the whole population or all the eligible members of a state, typically through elected representatives. (General Knowledge)"
-          },
-          {
-            "word": "ruby",
-            "hint": "A dynamic, open-source programming language known for its simplicity and productivity. (Computer Language)"
-          },
-          {
-            "word": "atom",
-            "hint": "The basic unit of a chemical element, consisting of a nucleus containing protons and neutrons, surrounded by electrons. (Science)"
-          },
-          {
-            "word": "oxygen",
-            "hint": "A chemical element with atomic number 8 and symbol O, a member of the chalcogen group on the periodic table. (General Knowledge)"
-          }
-        
-      
+         
+    {
+      "word": "elephant",
+      "hint": "A large mammal with a long trunk and tusks."
+    },
+    {
+      "word": "mountain",
+      "hint": "A large natural elevation of the earth's surface rising abruptly from the surrounding level; a large steep hill."
+    },
+    {
+      "word": "banana",
+      "hint": "A long curved fruit that grows in clusters and has a yellow skin."
+    },
+    {
+      "word": "guitar",
+      "hint": "A musical instrument with six or twelve strings, typically played by plucking or strumming."
+    },
+    {
+      "word": "astronaut",
+      "hint": "A person who is trained to travel into outer space."
+    },
+    {
+      "word": "pizza",
+      "hint": "A dish of Italian origin consisting of a flat, round base of dough baked with toppings such as tomato sauce and cheese."
+    },
+    {
+      "word": "butterfly",
+      "hint": "A flying insect with a slender body and large, often colorful wings."
+    },
+    {
+      "word": "oxygen",
+      "hint": "A chemical element with atomic number 8 and symbol O, a member of the chalcogen group on the periodic table."
+    },
+    {
+      "word": "beach",
+      "hint": "A pebbly or sandy shore, especially by the ocean between high- and low-water marks."
+    },
+    {
+      "word": "telescope",
+      "hint": "An optical instrument designed to make distant objects appear nearer, containing an arrangement of lenses, or of curved mirrors and lenses."
+    },
+    {
+      "word": "penguin",
+      "hint": "A flightless seabird of the Southern Hemisphere, with black upper parts and white underparts and wings developed into flippers for swimming underwater."
+    },
+    {
+      "word": "camera",
+      "hint": "A device for recording visual images in the form of photographs, film, or video signals."
+    },
+    {
+      "word": "rainbow",
+      "hint": "An arch of colors visible in the sky, caused by the refraction and dispersion of the sun's light by rain or other water droplets in the atmosphere."
+    },
+    {
+      "word": "computer",
+      "hint": "An electronic device for storing and processing data."
+    },
+    {
+      "word": "elephant",
+      "hint": "A large mammal with a long trunk and tusks."
+    },
+    {
+      "word": "mountain",
+      "hint": "A large natural elevation of the earth's surface rising abruptly from the surrounding level; a large steep hill."
+    },
+    {
+      "word": "banana",
+      "hint": "A long curved fruit that grows in clusters and has a yellow skin."
+    },
+    {
+      "word": "guitar",
+      "hint": "A musical instrument with six or twelve strings, typically played by plucking or strumming."
+    },
+    {
+      "word": "astronaut",
+      "hint": "A person who is trained to travel into outer space."
+    },
+    {
+      "word": "pizza",
+      "hint": "A dish of Italian origin consisting of a flat, round base of dough baked with toppings such as tomato sauce and cheese."
+    },
+    {
+      "word": "butterfly",
+      "hint": "A flying insect with a slender body and large, often colorful wings."
+    },
+    {
+      "word": "oxygen",
+      "hint": "A chemical element with atomic number 8 and symbol O, a member of the chalcogen group on the periodic table."
+    },
+    {
+      "word": "beach",
+      "hint": "A pebbly or sandy shore, especially by the ocean between high- and low-water marks."
+    },
+    {
+      "word": "telescope",
+      "hint": "An optical instrument designed to make distant objects appear nearer, containing an arrangement of lenses, or of curved mirrors and lenses."
+    },
+    {
+      "word": "penguin",
+      "hint": "A flightless seabird of the Southern Hemisphere, with black upper parts and white underparts and wings developed into flippers for swimming underwater."
+    },
+    {
+      "word": "camera",
+      "hint": "A device for recording visual images in the form of photographs, film, or video signals."
+    },
+    {
+      "word": "rainbow",
+      "hint": "An arch of colors visible in the sky, caused by the refraction and dispersion of the sun's light by rain or other water droplets in the atmosphere."
+    },
+    {
+      "word": "computer",
+      "hint": "An electronic device for storing and processing data."
+    },
+    {
+      "word": "elephant",
+      "hint": "A large mammal with a long trunk and tusks."
+    },
+    {
+      "word": "mountain",
+      "hint": "A large natural elevation of the earth's surface rising abruptly from the surrounding level; a large steep hill."
+    },
+    {
+      "word": "banana",
+      "hint": "A long curved fruit that grows in clusters and has a yellow skin."
+    },
+    {
+      "word": "guitar",
+      "hint": "A musical instrument with six or twelve strings, typically played by plucking or strumming."
+    },
+    {
+      "word": "astronaut",
+      "hint": "A person who is trained to travel into outer space."
+    },
+    {
+      "word": "pizza",
+      "hint": "A dish of Italian origin consisting of a flat, round base of dough baked with toppings such as tomato sauce and cheese."
+    },
+    {
+      "word": "butterfly",
+      "hint": "A flying insect with a slender body and large, often colorful wings."
+    },
+    {
+      "word": "oxygen",
+      "hint": "A chemical element with atomic number 8 and symbol O, a member of the chalcogen group on the periodic table."
+    },
+    {
+      "word": "beach",
+      "hint": "A pebbly or sandy shore, especially by the ocean between high- and low-water marks."
+    },
+    {
+      "word": "telescope",
+      "hint": "An optical instrument designed to make distant objects appear nearer, containing an arrangement of lenses, or of curved mirrors and lenses."
+    },
+    {
+      "word": "penguin",
+      "hint": "A flightless seabird of the Southern Hemisphere, with black upper parts and white underparts and wings developed into flippers for swimming underwater."
+    },
+    {
+      "word": "camera",
+      "hint": "A device for recording visual images in the form of photographs, film, or video signals."
+    },
+    {
+      "word": "rainbow",
+      "hint": "An arch of colors visible in the sky, caused by the refraction and dispersion of the sun's light by rain or other water droplets in the atmosphere."
+    },
+    {
+      "word": "computer",
+      "hint": "An electronic device for storing and
+}
       
 ]
