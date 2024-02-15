@@ -24,7 +24,6 @@ const resetGame=()=>{
 // random word and hint select
 const getRandoumWord = () => {
     const { word, hint } = wordList[Math.floor(Math.random() * wordList.length)];
-    console.log(word);
     correntWord = word;
     document.querySelector(".hint-text b").innerText = hint;
    
