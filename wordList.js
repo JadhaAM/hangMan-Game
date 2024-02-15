@@ -164,10 +164,6 @@ const wordList=[
     {
       "word": "rainbow",
       "hint": "An arch of colors visible in the sky, caused by the refraction and dispersion of the sun's light by rain or other water droplets in the atmosphere."
-    },
-    {
-      "word": "computer",
-      "hint": "An electronic device for storing and
-}
+    }
       
 ]
