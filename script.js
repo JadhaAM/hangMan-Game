@@ -4,6 +4,7 @@ const wordDisplay = document.querySelector(".word-display");
 const guessesText = document.querySelector(".guess-text span");
 const gameModal=document.querySelector(".game-modal");
 const playAgaiBtn=document.querySelector(".play-again");
+ const container=document.querySelector(".container")
 
 let correntWord,correctLetter=[], wrongGuessCounter = 0;
 const maxGuesses = 6;
@@ -26,6 +27,7 @@ const getRandoumWord = () => {
     console.log(word);
     correntWord = word;
     document.querySelector(".hint-text b").innerText = hint;
+   
     resetGame();
 }
 
@@ -37,9 +39,10 @@ const gameOver= (isvictory)=>{
         gameModal.querySelector("img").src= `${isvictory ?'victory':'lost'}.gif`;
         gameModal.querySelector("h4").innerText= `${isvictory ?'Congrats !':'game Over !'}`;
         gameModal.querySelector("p").innerHTML= `${modelText}  <b>${correntWord}</b>`;
+        container.style.display = "none";
         gameModal.classList.add("show");
         
-    },300);
+    },1000);
 }
 
 
@@ -84,4 +87,8 @@ for (let i = 97; i <= 122; i++) {
 
 getRandoumWord();
 
-playAgaiBtn.addEventListener("click",getRandoumWord);
+playAgaiBtn.addEventListener("click",()=>{
+    gameModal.style.display = "none";
+    container.style.display = "flex";
+    getRandoumWord();
+});

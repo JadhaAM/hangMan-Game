@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=open+Sans:wght@400:500;600;700&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css");
 
 * {
 
@@ -62,6 +62,10 @@ body {
     margin: -40px 0 35px;
 }
 
+.game-box {
+    width: 100%;
+}
+
 .game-box h4 {
     font-size: 1.1rem;
     font-weight: 500;
@@ -118,19 +122,21 @@ body {
     opacity: 0;
     padding: 0 10px;
     pointer-events: none;
-    z-index: 999;
     display: flex;
     align-items: center;
     justify-content: center;
     background: rgba(0, 0, 0, 0.6);
     transition: opacity 0.4 ease;
+    padding: 2rem 5rem;
 }
 
-.game-modal .show{
+.show{
+    display: inline;
     opacity: 1;
     pointer-events: auto;
 }
-.game-modal .content {
+.content {
+    display: block;
     background: #fff;
     max-width: 420px;
     width: 100%;
@@ -175,7 +181,5 @@ body {
         max-width: 200px;
     }
 
-    .hangman-box h1 {
-        display: none;
-    }
+   
 }
