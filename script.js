@@ -41,7 +41,7 @@ const gameOver= (isvictory)=>{
         container.style.display = "none";
         gameModal.classList.add("show");
         
-    },1000);
+    },300);
 }
 
 
